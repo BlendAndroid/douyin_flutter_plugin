@@ -26,7 +26,7 @@ class _VideoViewState extends State<VideoView> {
         if (widget.player.state == FijkState.paused)
           Align(
             alignment: Alignment.center,
-            child: Image.asset('lib/assets/play.png',
+            child: Image.asset('packages/douyin_flutter_plugin/assets/play.png',
                 width: 70, height: 70),
           ),
       ]),
